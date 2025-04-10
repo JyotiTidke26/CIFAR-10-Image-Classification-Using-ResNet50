@@ -76,13 +76,13 @@ We switched to **ResNet50** because:
 - Optimizer: `Adam (lr=1e-4)`
 - Metric: `accuracy`
 - ResNet50 Custom Head Training (before fine-tuning):
-The model rapidly improved from **23% to 88.3%** validation accuracy in just **10** epochs. The training and validation loss decreased steadily, confirming strong learning and generalization, even before any fine-tuning was applied to the base layers.
+The model rapidly improved from **71.50% to 87.9%** validation accuracy in just **10** epochs. The training and validation loss decreased steadily, confirming strong learning and generalization, even before any fine-tuning was applied to the base layers.
 ---
 
 ### 🔁 7. Fine-Tuning ResNet50
 - Only `Conv2D` layers unfrozen (kept `BatchNormalization`, `Pooling` layers frozen)
 - Reduced learning rate to `1e-5`
-- Retrained for another **10 epochs**
+- Retrained for another **3 epochs**
 
 ---
 
@@ -92,7 +92,7 @@ The model rapidly improved from **23% to 88.3%** validation accuracy in just **1
 |-------------------|-------------------------------|----------------------|------------------|
 | Custom CNN        | After Fine-tuning             | **75.60%**           | 0.8345           |
 | ResNet50          | After Training                | 86.14%               | 3.0072           |
-| ResNet50          | After Fine-tuning             | ⭐ **95.80%**        | 0.2367           |
+| ResNet50          | After Fine-tuning             | ⭐ **86.81%**        | 2.8772           |
 
 ---
 
@@ -100,21 +100,13 @@ The model rapidly improved from **23% to 88.3%** validation accuracy in just **1
 This project showcases the power of **transfer learning** with **ResNet50** on CIFAR-10:
 - Starting with a **custom CNN**, we hit a performance ceiling.
 - Transitioning to **ResNet50** dramatically improved accuracy due to deeper layers and pretrained knowledge.
-- **Fine-tuning** ResNet50 helped tailor it to CIFAR-10, achieving a final **test accuracy of 95.8%**.
+- **Fine-tuning** ResNet50 helped tailor it to CIFAR-10, achieving a final **test accuracy of  86.81%**.
 
 ---
 
 ## 📁 Files Included
 - 📓 [Custom_CNN_CIFAR10_Project.ipynb](./Custom_CNN_CIFAR10_Project.ipynb)
 - 📓 `ResNet50_Model.ipynb`: Google Colab notebook for ResNet50 (with fine-tuning)
-
----
-## 🎉 Sample Predictions
-
-| Input Image | Prediction |
-|-------------|------------|
-| ![dog](images/dog.png) | 🐶 Dog |
-| ![truck](images/truck.png) | 🚛 Truck |
 
 ---
 
