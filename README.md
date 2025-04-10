@@ -91,7 +91,7 @@ The model rapidly improved from **23% to 88.3%** validation accuracy in just **1
 | 🧠 **Model Type** | 🔄 **Training Phase**         | 🎯 **Test Accuracy** | 📉 **Test Loss** |
 |-------------------|-------------------------------|----------------------|------------------|
 | Custom CNN        | After Fine-tuning             | **75.60%**           | 0.8345           |
-| ResNet50          | After Training                | 74.98%               | 1.2237           |
+| ResNet50          | After Training                | 86.14%               | 3.0072           |
 | ResNet50          | After Fine-tuning             | ⭐ **95.80%**        | 0.2367           |
 
 ---
