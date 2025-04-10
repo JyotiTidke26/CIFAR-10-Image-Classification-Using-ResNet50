@@ -10,6 +10,11 @@ This project implements an image classification pipeline on the CIFAR-10 dataset
 Classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cifar.html), which includes 10 classes ( dog, frog, horse, ship, bird, deer, automobile, airplanes, cats, trucks). The project demonstrates the improvement gained by transitioning from a custom CNN to a fine-tuned ResNet50-based model.
 
 ---
+## 💡 Why This Project?
+This project was built as part of a deep learning portfolio to demonstrate:
+- Transfer learning in real-world image classification.
+- Practical usage of ResNet50 and fine-tuning.
+---
 
 ## 🔑 Key Steps
 
@@ -23,7 +28,7 @@ Classify images from the [CIFAR-10 dataset](https://www.cs.toronto.edu/~kriz/cif
 
 ### 🗂️ 2. Dataset Loading & Limiting
 - CIFAR-10 is loaded via TensorFlow.
-- Initially limited to **10,000 samples** for quick iteration.
+- Limited to **10,000 samples** for quick iteration and computational limitations.
 
 ---
 
@@ -102,6 +107,14 @@ This project showcases the power of **transfer learning** with **ResNet50** on C
 ## 📁 Files Included
 - 📓 `Custom_CNN_Model.ipynb`: Google Colab notebook for custom CNN
 - 📓 `ResNet50_Model.ipynb`: Google Colab notebook for ResNet50 (with fine-tuning)
+
+---
+## 🎉 Sample Predictions
+
+| Input Image | Prediction |
+|-------------|------------|
+| ![dog](images/dog.png) | 🐶 Dog |
+| ![truck](images/truck.png) | 🚛 Truck |
 
 ---
 
