@@ -137,12 +137,11 @@ Here are a few ways this project can be extended and improved:
 ---
 
 ## 📦 Requirements
-- `TensorFlow`
-- `Keras`
-- `OpenCV`
-- `Scikit-learn`
-- `NumPy`
-
+- `TensorFlow: 2.19.0`
+- `Keras: 3.8.0`
+- `OpenCV: 4.11.0`
+- `Scikit-learn: 1.6.1`
+- `NumPy: 2.0.2`
 ---
 
 ## 🧠 Author Note
