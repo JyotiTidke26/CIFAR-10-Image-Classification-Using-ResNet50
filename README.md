@@ -105,7 +105,7 @@ This project showcases the power of **transfer learning** with **ResNet50** on C
 ---
 
 ## 📁 Files Included
-- 📓 `Custom_CNN_Model.ipynb`: Google Colab notebook for custom CNN
+- 📓 [Custom_CNN_CIFAR10_Project.ipynb](./Custom_CNN_CIFAR10_Project.ipynb)
 - 📓 `ResNet50_Model.ipynb`: Google Colab notebook for ResNet50 (with fine-tuning)
 
 ---
