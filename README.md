@@ -118,6 +118,24 @@ This project showcases the power of **transfer learning** with **ResNet50** on C
 
 ---
 
+## 💡 Recommendations for Further Improvement
+
+Here are a few ways this project can be extended and improved:
+
+1. **Experiment with Other Architectures**  
+   Try models like EfficientNet, DenseNet, or MobileNetV2 for better performance or faster inference.
+
+2. **Integrate MLflow for Experiment Tracking**  
+   Track model versions, training metrics, and performance using MLflow.
+
+2. **Use Full CIFAR-10 Dataset**  
+   The model is currently trained on a 10K subset; training on the full 50K images can yield even better accuracy.
+
+2. **Data Augmentation Strategies**  
+   Explore additional augmentation like brightness, contrast, and CutMix to make the model more robust.
+
+---
+
 ## 📦 Requirements
 - `TensorFlow`
 - `Keras`
