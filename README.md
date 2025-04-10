@@ -95,7 +95,10 @@ The model rapidly improved from **71.50% to 87.9%** validation accuracy in just 
 | ResNet50          | After Fine-tuning             | ⭐ **86.81%**        | 2.8772           |
 
 ---
+### 📊 9. Classification Report 
+The model achieved high performance across all CIFAR-10 classes, with precision and recall consistently above 80%. Notably, classes like automobile, ship, and frog had F1-scores exceeding 0.90, indicating strong generalization. The classification report highlights balanced accuracy and minimal class bias.
 
+---
 ## ✅ Conclusion
 This project showcases the power of **transfer learning** with **ResNet50** on CIFAR-10:
 - Starting with a **custom CNN**, we hit a performance ceiling.
